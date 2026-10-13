@@ -25,13 +25,17 @@ flowchart TD
 ```
 
 ## pseudo bilangan ganjil genap
+```sh
 DECLARE Angka : INTEGER
+DECLARE hasilGenap : STRING
+DECLARE hasilGanjil : STRING
 
-INPUT Angka 
-IF Angka MOD 2 == 0 THEN
+INPUT Angka
+IF Angka MOD 2 = 0 THEN
     OUTPUT "Bilangan genap"
 ELSE OUTPUT "Bilangan ganjil"
 ENDIF
+```
 ## Algoritma menghitung luas dan keliling lingkaran
 1. Mulai
 2. Tentukan nilai untuk Jari-Jari ( r )
@@ -54,4 +58,18 @@ flowchart TD
     Keliling --> E[/Cetak Hasil Keliling/] --> Z
     
     Z([Selesai])
+```
+
+## Pseudocode Luas Keliling Lingkaran
+```sh
+DECLARE r : INTEGER
+DECLARE luas : REAL
+DECLARE keliling : REAL
+
+INPUT r
+CONSTANT pi = 3.14
+luas <- pi * r * r
+keliling <- 2 * pi * r
+OUTPUT luas
+OUTPUT keliling
 ```
