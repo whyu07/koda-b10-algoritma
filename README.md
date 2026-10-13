@@ -29,8 +29,8 @@
 flowchart TD
     A([Mulai]) --> B[/Angka/]
     B --> C{Angka % 2 == 0 ?}
-    C -- Ya --> D[Bilangan Genap]
-    C -- Tidak --> E[Bilangan Ganjil]
+    C -- Ya --> D[/Bilangan Genap/]
+    C -- Tidak --> E[/Bilangan Ganjil/]
     E --> F
     D --> F([Selesai])
 ```
