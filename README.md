@@ -7,6 +7,8 @@
 
 
 ## Algoritma menentukan bilangan ganjil atau genap
-1. Tentukan angka yang ingin di pilih apa itu bilangan ganjil atau genap
-2. Apabila angka tersebut habis di bagi 2 atau sama dengan 0 maka bilangan tersebut genap
-3. Apabila angka tersebut Menyisakan 1 saat di bagi 2 maka itu adalah bilangan ganjil 
+1. Mulai
+2. Tentukan angka yang ingin di pilih apa itu bilangan ganjil atau genap
+3. Apabila angka tersebut habis di bagi 2 atau sama dengan 0 maka bilangan tersebut genap
+4. Apabila angka tersebut Menyisakan 1 saat di bagi 2 maka itu adalah bilangan ganjil
+5. Selesai
