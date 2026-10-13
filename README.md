@@ -13,6 +13,25 @@
 4. Apabila angka tersebut Menyisakan 1 saat di bagi 2 maka itu adalah bilangan ganjil
 5. Selesai
 
+## Flowchart Menentukan Ganjil Genap
+```mermaid
+flowchart TD
+    A([Mulai]) --> B[/Angka/]
+    B --> C{"Angka % 2 == 0 ?"}
+    C -- Ya --> D[/Bilangan Genap/]
+    C -- Tidak --> E[/Bilangan Ganjil/]
+    E --> F
+    D --> F([Selesai])
+```
+
+## pseudo bilangan ganjil genap
+DECLARE Angka : INTEGER
+
+INPUT Angka 
+IF Angka MOD 2 == 0 THEN
+    OUTPUT "Bilangan genap"
+ELSE OUTPUT "Bilangan ganjil"
+ENDIF
 ## Algoritma menghitung luas dan keliling lingkaran
 1. Mulai
 2. Tentukan nilai untuk Jari-Jari ( r )
@@ -24,16 +43,7 @@
 8. cetak hasil keliling 
 9. selesai 
 
-## Flowchart Menentukan Ganjil Genap
-```mermaid
-flowchart TD
-    A([Mulai]) --> B[/Angka/]
-    B --> C{"Angka % 2 == 0 ?"}
-    C -- Ya --> D[/Bilangan Genap/]
-    C -- Tidak --> E[/Bilangan Ganjil/]
-    E --> F
-    D --> F([Selesai])
-```
+
 ```mermaid
 flowchart TD 
     A([Mulai]) --> B[/Jari-Jari/]
