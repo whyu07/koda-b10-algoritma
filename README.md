@@ -28,7 +28,7 @@
 ```mermaid
 flowchart TD
     A([Mulai]) --> B[/Angka/]
-    B --> C{Angka % 2 == 0 ?}
+    B --> C{"Angka % 2 == 0 ?"}
     C -- Ya --> D[/Bilangan Genap/]
     C -- Tidak --> E[/Bilangan Ganjil/]
     E --> F
@@ -40,6 +40,8 @@ flowchart TD
     B --> Luas{"π * r * r"}
     B --> Keliling{"2 * π * r"}
 
-    Luas --> D[/Cetak Hasil Luas/]
-    Keliling --> E[/Cetak Hasil Keliling/]
+    Luas --> D[/Cetak Hasil Luas/] --> Z
+    Keliling --> E[/Cetak Hasil Keliling/] --> Z
+    
+    Z([Selesai])
 ```
