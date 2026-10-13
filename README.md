@@ -23,3 +23,12 @@
 7. Maka hitung keliling dengan rumus keliling sama dengan 2 dikali 22 di bagi 7 dikali jari-hari
 8. cetak hasil keliling 
 9. selesai 
+
+## Flowchart Menentukan Ganjil Genap
+flowchart TD
+    A([Mulai]) --> B[/Angka/]
+    B --> C{Angka % 2 == 0 ?}
+    C -- Ya --> D[Bilangan Genap]
+    C -- Tidak --> E[Bilangan Ganjil]
+    E --> F
+    D --> F([Selesai])
