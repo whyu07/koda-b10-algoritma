@@ -17,9 +17,9 @@
 1. Mulai
 2. Tentukan nilai untuk Jari-Jari ( r )
 3. Jika rumus luas = pi * r * r
-4. Maka hitung luas = 22 di bagi 7 dikali jari-jari dikali jari-jari
+4. Maka hitung luas sama dengan 22 di bagi 7 dikali jari-jari dikali jari-jari
 5. cetak hasil luas
 6. Jika rumus keliling = 2 * pi * r
-7. Maka hitung keliling dengan rumus keliling = 2 dikali 22 di bagi 7 dikali jari-hari
+7. Maka hitung keliling dengan rumus keliling sama dengan 2 dikali 22 di bagi 7 dikali jari-hari
 8. cetak hasil keliling 
 9. selesai 
