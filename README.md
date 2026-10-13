@@ -25,6 +25,7 @@
 9. selesai 
 
 ## Flowchart Menentukan Ganjil Genap
+```mermaid
 flowchart TD
     A([Mulai]) --> B[/Angka/]
     B --> C{Angka % 2 == 0 ?}
@@ -32,3 +33,4 @@ flowchart TD
     C -- Tidak --> E[Bilangan Ganjil]
     E --> F
     D --> F([Selesai])
+```
